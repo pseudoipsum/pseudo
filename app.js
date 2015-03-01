@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', function(req, res){
   // use a render
-  res.render('home.ejs');
+  res.render('index.ejs');
 });
 
 app.listen(process.env.PORT || 3000, function() {
