@@ -1,10 +1,39 @@
 <!DOCTYPE HTML>
-
 <html>
   <head>
+
   	<title>//pseudo</title>
+  	<link rel="stylesheet" href="/stylesheets//bootstrap.min.css">
+  	<link rel="stylesheet" href="stylesheets/main.css">
+
   </head>
   <body>
-    Hello, <%= name %>!
+  	<header>
+  		
+  	</header>
+  		<div class="text-center">
+			<form class="form-inline" action="/results" method="GET">
+				<div class="form-group">
+					<input type="text" name="pseudo_code" class="form-control" placeholder="pseudo code">
+				</div>
+				<div class="form-group">
+					<input type="text" name="language" class="form-control" placeholder="language">
+				</div>
+				<button class="btn btn-inverse">ADD</button>
+			</form>
+		</div>
+  	<footer>
+  		<div class="row">
+  			<div class="col-xs-12 col-sm-6 col-md-6">
+  				<h1>ABOUT</h1>
+  				<p>
+  			</div>
+  			<div class="col-xs-12 col-sm-6 col-md-6">
+  				<h1>CONTACT</h1>
+
+  			</div>
+		</div>
+  	</footer>
+
   </body>
 </html>
