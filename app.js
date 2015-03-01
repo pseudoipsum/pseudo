@@ -16,6 +16,12 @@ app.get('/', function(req, res){
   res.render('index.ejs');
 });
 
+app.get('/angular', function(req, res){
+	res.render('angular.ejs');
+});
+
+
+
 app.listen(process.env.PORT || 3000, function() {
 	console.log(new Array("*").join());
 	console.log("STARTED ON localhost:3000");

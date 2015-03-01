@@ -5,9 +5,21 @@ body {
 	color: gray;
 }
 
+#navbar {
+    background-color: rgba(120, 120, 120, 0.3);
+    width:100%;
+    position: fixed;
+    transition: all 0.8s ease 0s;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+}
+
 .logo {
 	color: gray;
-	font-size: 6em;
+	font-size: 10em;
 	text-align: center; 
 }
 
@@ -28,7 +40,11 @@ body {
 	font-size: 4em;
 }
 
-#generate {
+div #generate {
+    display: inline;
+}
+
+#add {
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -36,8 +52,9 @@ body {
     height: 1401px;
 }
 
-#add {
-	-webkit-background-size: cover;
+#fun {
+    background: url('http://i.imgur.com/34NswHR.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
