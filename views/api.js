@@ -20,3 +20,10 @@ function MacysApi($scope, $http) {
         });
 }
 
+
+
+ 
+
+http://api.remix.bestbuy.com/v1/products(longDescription=sennheiser*%7Csku=4961487)?show=longDescription,name&pageSize=1&page=1&apiKey=z34g2b4eqby8krm55rev4trj&format=json
+
+?show=regularPrice
