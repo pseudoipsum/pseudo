@@ -1,0 +1,25 @@
+{
+  "name": "pseudo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pseudoipsum/pseudo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pseudoipsum/pseudo/issues"
+  },
+  "homepage": "https://github.com/pseudoipsum/pseudo",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "cookie-session": "^1.1.0",
+    "ejs": "^2.3.1",
+    "express": "^4.12.0"
+  }
+}
