@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
 
 <head>
 <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+<script src="api.js"></script>
 </head>
 
-<body>
-
-<div ng-app="">
- 	<p>Name: <input type="text" ng-model="name"></p>
- 	<p ng-bind="name"></p>
-</div>
-
-</body>
+	<body>
+		{{ 1 + 2 }}
+		<div ng-controller="Api">
+			<p>The ID is {{greeting.id}}</p>
+			<p>The content is {{greeting.content}}</p>
+		</div>
+	</body>
 </html>
