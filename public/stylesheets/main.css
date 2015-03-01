@@ -1,6 +1,60 @@
 body {
 	margin: 0 auto;
 	font-family: Monaco, monospace;
+	background: black;
+	color: gray;
+}
+
+.logo {
+	color: gray;
+	font-size: 6em;
 	text-align: center; 
+}
+
+#generate {
+	color: green;
+}
+
+#home {
+    background: url('http://i.imgur.com/34NswHR.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1401px;
+}
+
+.text {
+	font-size: 4em;
+}
+
+#generate {
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1401px;
+}
+
+#add {
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1401px;
+}
+
+#aboutcontact {
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1401px;
+}
+
+#page {
+    background-color: rgba(245, 245, 245, 0.7);
+    width: 100%;
+    height: 100%;
 }
 
